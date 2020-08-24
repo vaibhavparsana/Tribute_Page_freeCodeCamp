@@ -1,0 +1,70 @@
+    .bg-image {
+        background-image: url(Domino-Logo.png);
+        filter: blur(8px);
+        height: 100%;
+        position: fixed;
+        width: 100%;
+        background-repeat: repeat;
+        background-size: 20%;
+    }
+    
+    #title {
+        padding: 10%;
+        background-image: url(dominos_logo.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    
+    #img-div {
+        border: 1px solid white;
+        margin: 5%;
+    }
+    
+    #img-div>img {
+        display: block;
+        max-width: 500px;
+        max-height: 500px;
+        margin: 5% auto;
+        box-shadow: 10px 10px 20px white;
+    }
+    
+    .title-format {
+        text-align: center;
+    }
+    
+    .content {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        background: #ffffff7d;
+    }
+    
+    div.title-format {
+        border: 1px solid white;
+        margin: 5%;
+    }
+    
+    .tribute-info-format,
+    .tribute-yearinfo-format {
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .tribute-yearinfo-format {
+        background-color: #ff000052;
+    }
+    
+    .tribute-info-format {
+        background-color: lightblue;
+    }
+    
+    #tribute-info {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+        padding: 10px;
+        border: 1px solid white;
+        margin: 5%;
+    }
